@@ -1,0 +1,36 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="GameHallGirlNPC" Type="Plist" ID="110a859f-87ec-4ce7-be0a-5b0b519fb2a8" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="GameHallNPC/1.png" />
+      <FilePathData Path="GameHallNPC/10.png" />
+      <FilePathData Path="GameHallNPC/11.png" />
+      <FilePathData Path="GameHallNPC/12.png" />
+      <FilePathData Path="GameHallNPC/13.png" />
+      <FilePathData Path="GameHallNPC/14.png" />
+      <FilePathData Path="GameHallNPC/15.png" />
+      <FilePathData Path="GameHallNPC/16.png" />
+      <FilePathData Path="GameHallNPC/17.png" />
+      <FilePathData Path="GameHallNPC/18.png" />
+      <FilePathData Path="GameHallNPC/19.png" />
+      <FilePathData Path="GameHallNPC/2.png" />
+      <FilePathData Path="GameHallNPC/20.png" />
+      <FilePathData Path="GameHallNPC/21.png" />
+      <FilePathData Path="GameHallNPC/22.png" />
+      <FilePathData Path="GameHallNPC/23.png" />
+      <FilePathData Path="GameHallNPC/24.png" />
+      <FilePathData Path="GameHallNPC/25.png" />
+      <FilePathData Path="GameHallNPC/26.png" />
+      <FilePathData Path="GameHallNPC/27.png" />
+      <FilePathData Path="GameHallNPC/28.png" />
+      <FilePathData Path="GameHallNPC/3.png" />
+      <FilePathData Path="GameHallNPC/4.png" />
+      <FilePathData Path="GameHallNPC/5.png" />
+      <FilePathData Path="GameHallNPC/6.png" />
+      <FilePathData Path="GameHallNPC/7.png" />
+      <FilePathData Path="GameHallNPC/8.png" />
+      <FilePathData Path="GameHallNPC/9.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
