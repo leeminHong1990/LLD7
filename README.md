@@ -43,11 +43,11 @@ An chess and card game framework.
 			expires off;
 		}
 		
-		~~location  /frameworks {~~
-		~~   root   D:/Engine/;~~
-		~~   add_header Cache-Control no-store;~~
-		~~   expires off;~~
-		~~}~~
+		#location  /frameworks {
+		#   root   D:/Engine/;
+		#   add_header Cache-Control no-store;
+		#   expires off;
+		#}
 	}
 	
 </h6>
