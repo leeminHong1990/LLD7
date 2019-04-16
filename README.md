@@ -23,22 +23,21 @@ An chess and card game framework.
 - step 4: download nginx and config nginx like this
 
 server {
-       listen       8090;
-       server_name  YingTanMJ;
-
-       location / {
-           root   F:/YingTanMJ/cocos;
-        #    index  index.html index.htm;
-           autoindex on;
-           add_header Cache-Control no-store;
-           expires off;
-       }
-     
-       #location  /frameworks {
-       #   root   D:/Engine/;
-       #   add_header Cache-Control no-store;
-       #   expires off;
-       #}
+		listen       8090;
+		server_name  YingTanMJ;
+		location / {
+			root   F:/YingTanMJ/cocos;
+			index  index.html index.htm;
+			autoindex on;
+			add_header Cache-Control no-store;
+			expires off;
+		}
+		
+		#location  /frameworks {
+		#   root   D:/Engine/;
+		#   add_header Cache-Control no-store;
+		#   expires off;
+		#}
            
     }
 - step 5: config cocos/src/switch.js switches.kbeServerIP to server ip and switches.kbeServerLoginPort to server port (it always 20013)
