@@ -21,11 +21,15 @@ An chess and card game framework.
 - step 1: download Engine: https://pan.baidu.com/s/1SKrdwEhsIEQX2cvek4wL4A   extrace code：y3nf
 - step 2: unzip ***cocos_frameworks_v3.16.zip*** in cocos
 - step 3: unzip kbe in kbengine
+
 		windows: 	***kbe_windows_1.17.zip***
 		linux: 		***kbe_tencent_ubuntu_1.17.zip*** 
-- step 4: 1.download [nginx](http://nginx.org)
-		  2.config nginx like nginx config.
+- step 4: 
+
+		1.download [nginx](http://nginx.org)
+		2.config nginx like nginx config.
 - step 5: 
+
 		config ***cocos/src/switch.js***
 
 		***switches.kbeServerIP*** => server ip 
