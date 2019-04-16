@@ -43,6 +43,7 @@ server {
        expires off;
     }  
 }
+
 </h6>
 - step 5: config cocos/src/switch.js switches.kbeServerIP to server ip and switches.kbeServerLoginPort to server port (it always 20013)
 - step 6: run kbengine/assets/start_server.bat or kbengine/assets/start_server.sh
