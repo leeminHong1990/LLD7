@@ -22,18 +22,18 @@ An chess and card game framework.
 - step 2: unzip ***cocos_frameworks_v3.16.zip*** in cocos
 - step 3: unzip kbe in kbengine
 
-		windows: 	***kbe_windows_1.17.zip***
-		linux: 		***kbe_tencent_ubuntu_1.17.zip*** 
+		windows: 	kbe_windows_1.17.zip
+		linux: 		kbe_tencent_ubuntu_1.17.zip
 - step 4: 
 
-		1.download [nginx](http://nginx.org)
-		2.config nginx like nginx config.
+		download [nginx](http://nginx.org)
+		config nginx like nginx config.
 - step 5: 
 
 		config ***cocos/src/switch.js***
 
-		***switches.kbeServerIP*** => server ip 
-		***switches.kbeServerLoginPort*** => server port (~~in general 20013~~)
+		switches.kbeServerIP 		=> server ip 
+		switches.kbeServerLoginPort => server port (in general 20013)
 - step 6: run command
 		windows:	***kbengine/assets/start_server.bat***
 		linux: 		***kbengine/assets/start_server.sh***
