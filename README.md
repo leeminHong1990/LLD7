@@ -37,8 +37,8 @@ An chess and card game framework.
 		linux: 		Engine/kbe_tencent_ubuntu_1.17.zip
 - step 4: 
 
-		download [nginx](http://nginx.org)
-		config nginx like nginx config.
+		1.download [nginx](http://nginx.org)
+		2.config nginx like nginx config.
 - step 5: 
 
 		config cocos/src/switch.js
@@ -46,10 +46,11 @@ An chess and card game framework.
 		switches.kbeServerIP 		=> server ip 
 		switches.kbeServerLoginPort => server port (in general 20013)
 - step 6: 
+		
 		run command
 		
 		windows:	kbengine/assets/start_server.bat
-		linux: 		kbengine/assets/start_server.sh
+		linux:		kbengine/assets/start_server.sh
 - step 7:
 		login
 		
