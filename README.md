@@ -45,10 +45,14 @@ An chess and card game framework.
 
 		switches.kbeServerIP 		=> server ip 
 		switches.kbeServerLoginPort => server port (in general 20013)
-- step 6: run command
+- step 6: 
+		run command
+		
 		windows:	kbengine/assets/start_server.bat
 		linux: 		kbengine/assets/start_server.sh
-- step 7: 
+- step 7:
+		login
+		
 		1.use explorer Access to the client address 
 		2.login the service.
 
