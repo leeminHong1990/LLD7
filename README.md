@@ -52,6 +52,7 @@ An chess and card game framework.
 		windows:	kbengine/assets/start_server.bat
 		linux:		kbengine/assets/start_server.sh
 - step 7:
+		
 		login
 		
 		1.use explorer Access to the client address 
