@@ -20,8 +20,7 @@ An chess and card game framework.
 - step 1: download Engine: https://pan.baidu.com/s/1SKrdwEhsIEQX2cvek4wL4A   extrace code：y3nf
 - step 2: unzip cocos_frameworks_v3.16.zip in cocos
 - step 3: unzip windows:kbe_windows_1.17.zip or linux:kbe_tencent_ubuntu_1.17.zip in kbengine
-- step 4: download nginx and config nginx like this
-
+- step 4: download nginx and config nginx like this:
 server {
 		listen       8090;
 		server_name  YingTanMJ;
