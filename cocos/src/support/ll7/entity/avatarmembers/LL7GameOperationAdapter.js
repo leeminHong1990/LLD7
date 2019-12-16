@@ -333,6 +333,7 @@ var LL7GameOperationAdapter = LL7PlaybackOperationAdapter.extend({
 			}
 		} else if (aid === const_ll7.DRAW_COVER) {
 			curGameRoom.playerOperationList = new Array(curGameRoom.player_num).fill(0);
+			let lastLordAid = curGameRoom.lordAid;
 			curGameRoom.lordAid = aid;
 			curGameRoom.coverPokers = pokers;
 			curGameRoom.waitAid = -1;
@@ -355,10 +356,12 @@ var LL7GameOperationAdapter = LL7PlaybackOperationAdapter.extend({
 				// 		this.sourcePlayer.startActions["GameRoomUI"] = undefined;
 				// 	}
 				// }
-				if (curGameRoom.mainPokers.length === 2) {
+				if (lastLordAid != const_ll7.DRAW_COVER){
 					if (onhookMgr) {
 						onhookMgr.setWaitLeftTime(const_ll7.COUNTDOWN_MAIDI);
 					}
+				}
+				if (curGameRoom.mainPokers.length === 2) {
 					if (next_idx !== this.serverSitNum) {
 						h1global.curUIMgr.roomLayoutMgr.notifyObserver2("set_clock_pos", next_idx);
 					}
